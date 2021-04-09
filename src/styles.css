@@ -1,0 +1,55 @@
+@import '//fonts.googleapis.com/css?family=Bangers';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+
+  background-image: url(./img/bgimage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.field {
+  margin-left: 20px;
+}
+
+.label,
+.value {
+  font-size: 80px;
+  color: red;
+  font-family: Bangers;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  font-family: Bangers;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: yellow;
+}
